@@ -22,7 +22,7 @@ Date|	Did the user report any issues with the laptop?	|Did you find any issues w
 | ...  |
 
 5. Click `Extensions` -> `Apps Script` to get to the GAS code editor. Delete all the text in the script editor and paste the script in this repo at [Code.gs](./Code.gs). Save.
-6. Reload the spreadsheet. Run the function `createSpreadsheetOpenTrigger()`. It will have the text `Click Here (you only need to run this the first time)` in the Google Sheet menu.
+6. Reload the spreadsheet. Run the function `createSpreadsheetOpenTrigger()`. It will have the text `Click Here (you only need to run this the first time)` in the Google Sheet menu. Running this function creates a trigger to launch our script whenever the a in `Laptops` is checked or unchecked.
 
 ![image](https://user-images.githubusercontent.com/15747450/164994662-d434c5ab-9709-489b-9c7b-813fb0134af0.png)
 
