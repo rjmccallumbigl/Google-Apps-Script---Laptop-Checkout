@@ -29,7 +29,7 @@ function createSpreadsheetOpenTrigger() {
 
 /*******************************************************************************************
  * 
- * Set function to run whenver sheet is edited
+ * Set function to run whenever sheet is edited
  * 
  * @param {Object} e the active cell when the edit trigger is called
  *
