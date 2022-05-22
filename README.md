@@ -1,24 +1,26 @@
 # Google-Apps-Script---Laptop-Checkout
+
 Google Sheet laptop checkout system using GAS and HTML. Create a new Google Sheet and follow these instructions to implement and/or modify accordingly:
 
 # Steps
+
 1. Create a new Google Sheet: https://sheets.new
-2. Create a sheet called `Department`. Put `Dept Code` in `A1` and the identifier for the dept in A2:A. The rest of the columns are simply for identification, information, etc. 
+2. Create a sheet called `Department`. Put `Dept Code` in `A1` and the identifier for the dept in A2:A. The rest of the columns are simply for identification, information, etc.
 
 ![image](https://user-images.githubusercontent.com/15747450/164994179-46e64c7d-9e8b-4276-94d9-5b1e6d261f51.png)
 
 3. Fill out your Laptop information on a new sheet called `Laptops`. Place the header columns and additional info like so:
 
-Laptop|	Serial Number	|Checked Out?|	Department	|Last Name|	First Name|	Phone Number|	Date checked out|	Estimated Return Date|	Notes	|Additional check outs
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Name  | ID  | Checkbox  | 
-| Name  | ID  | Checkbox  | 
-| ...  | ...  | ...  | 
+| Laptop | Serial Number | Checked Out? | Department | Last Name | First Name | Phone Number | Date checked out | Estimated Return Date | Notes | Additional check outs |
+| ------ | ------------- | ------------ | ---------- | --------- | ---------- | ------------ | ---------------- | --------------------- | ----- | --------------------- |
+| Name   | ID            | Checkbox     |
+| Name   | ID            | Checkbox     |
+| ...    | ...           | ...          |
 
 4. Create a `History` sheet with the following headers:
 
-Date|	Did the user report any issues with the laptop?	|Did you find any issues with the laptop?|	Laptop	|Last Name|	First Name|	Phone Number|	Date checked out|	Estimated Return Date|	Notes	|Additional check outs
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Date | Did the user report any issues with the laptop? | Did you find any issues with the laptop? | Laptop | Last Name | First Name | Phone Number | Date checked out | Estimated Return Date | Notes | Additional check outs |
+| ---- | ----------------------------------------------- | ---------------------------------------- | ------ | --------- | ---------- | ------------ | ---------------- | --------------------- | ----- | --------------------- |
 | ...  |
 
 5. Click `Extensions` -> `Apps Script` to get to the GAS code editor. Delete all the text in the script editor and paste the script in this repo at [Code.gs](./Code.gs). Save.
